@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Chenlu Di / Site Title"
+title                    : "Chenlu Di / phd candidate"
 title_separator          : "-"
 name                     : &name "Chenu Di"
 description              : &description "phd candidate in EEB, U of Arizona. Studying adaptation and human diseases"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Chenlu Di"
   avatar           : "profile.png"
-  bio              : "site author: bio:Your biography for the left-hand sidebar"
+  bio              : "phd candidate on human population genetics."
   location         : "Tucson, the USA"
   employer         :
   pubmed           : "site author: pubmed:https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
