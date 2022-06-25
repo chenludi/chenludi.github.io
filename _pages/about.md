@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a phd student in [Enard lab](https://enardlab.com/), the department of [Ecology and Evolutionary Biology](https://eeb.arizona.edu/), University of Arizona. 
+I am a phd student in [Enard lab](https://enardlab.com/), the department of [Ecology and Evolutionary Biology](https://eeb.arizona.edu/), University of Arizona. The website is underconstruction. 
 
 
 for more info
