@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink:https://chenludi.github.io/files/CV_ChenluDi.pdf 
+title: "CV (updated on 2022/10/09)"
+permalink: https://chenludi.github.io/files/CV_ChenluDi.pdf 
 author_profile: true
 redirect_from:
   - /resume
