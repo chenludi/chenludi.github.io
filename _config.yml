@@ -85,8 +85,8 @@ author:
   bio              : "phd candidate on human population genetics."
   location         : "Tucson, the USA"
   employer         :
-  pubmed           : "site author: https://pubmed.ncbi.nlm.nih.gov/?term=Di%2C+Chenlu%5BAuthor%5D&sort=fauth"
-  googlescholar    : "site author: google scholar:https://scholar.google.com/citations?hl=en&user=qxqNSIUAAAAJ"
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Di%2C+Chenlu%5BAuthor%5D&sort=fauth"
+  googlescholar    : "https://scholar.google.com/citations?user=qxqNSIUAAAAJ&hl=en&oi=ao"
   email            : "cdi@arizona.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
