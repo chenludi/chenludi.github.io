@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Chenlu Di / phd @UofArizonaEEB"
+title                    : "Chenlu Di / phd"
 title_separator          : "-"
 name                     : &name "Chenu Di"
-description              : &description "phd in EEB, U of Arizona. Studying adaptation and human diseases "
+description              : &description "Start EEB, U of Arizona. Studying adaptation and human diseases "
 url                      : https://chenludi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chenludi.github.io"
