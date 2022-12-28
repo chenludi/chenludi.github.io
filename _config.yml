@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Chenlu Di / phd"
 title_separator          : "-"
-name                     : &name "Chenu Di"
+name                     : &name "Chenlu Di"
 description              : &description "Postdoc @[Kirk Lohmueller](https://lohmueller.eeb.ucla.edu/) lab, UCLA from 2023. Studying Evolution and human diseases."
 url                      : https://chenludi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
