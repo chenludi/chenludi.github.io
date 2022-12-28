@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV (updated on 2022/10/09)"
+title: "[CV (updated on 2022/12/28)](https://chenludi.github.io/files/CV_ChenluDi.pdf)"
 permalink: /cv/
 author_profile: true
 redirect_from:
