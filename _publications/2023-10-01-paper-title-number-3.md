@@ -1,3 +1,2 @@
-Click on these icons for the paper <img src="images/file-cloud-download.png"> to download pdf, or <img src="images/media.png"> for media coverage.
+* **Chenlu Di**, Jesus Murga MorenoDiego, F Salazar-TortosaM, Elise Lauterbur, David Enard. **2021**. Decreased recent adaptation at human mendelian disease genes as a possible consequence of interference between advantageous and deleterious variants. [**eLife** 10:e69026.](https://elifesciences.org/articles/69026)
 
-* A. Barua,  **A.S. Mikheyev**. Many options, few solutions: Over 60 my snakes converged on a few optimal venom formulations. *in press*, 2019 [<img src="images/file-cloud-download.png">](https://academic.oup.com/mbe/advance-article-pdf/doi/10.1093/molbev/msz125/28930891/msz125.pdf)
