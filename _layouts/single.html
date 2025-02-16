@@ -57,7 +57,7 @@ layout: default
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
         {% elsif page.slidesurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.paperurl and page.slidesurl and videourl %}
+        {% elsif page.paperurl and page.slidesurl and page.videourl %}
           <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p> | <a href="{{ page.videourl }}">Recorded Talk</a></p>
         {% endif %}
 
