@@ -6,8 +6,17 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am driven to understand how natural selection influences species' survival and human health. During my phd @[David Enard lab](https://enardlab.com/), I explored how adaptation connects to human Mendelian diseases and how human proteins evolve in response to viral infections. These previous works focused on adaptation in protein-coding genes or proteins. However, over 90% of the human genome is non-coding, and non-coding mutations are prevalently associated with complex diseases. How is natural selection in non-coding regions? To learn more about this question, I am currently working on inferring the selection of non-coding mutations in humans using simulation methods and population genetic theory as a postdoc researcher with [Kirk Lohmueller](https://lohmueller.eeb.ucla.edu/people/). 
+I am currently a postdoctoral researcher at the Department of Ecology and Evolutionary Biology, University of California, Los Angeles, where I am working with Kirk Lohmueller ([hyperlink](https://lohmueller.eeb.ucla.edu/people/)). My research integrates population genetics, empirical human genomics, and biomedical applications.
 
-Other web pages are still under construction!
+My overall research goal is to understand how species survive in changing environments by studying their genetic and epigenetic variation. I combine evolutionary theory, population genetics model-based and machine-learning methods, and genomic data to answer the question of how natural selection affects human health. 
+
+My research consists of two areas. 
+First, I investigate how **humans evolve against viruses**. Using protein structures, functional genomics and gene regulatory network, I explore how **human proteins** and **regulatory elements** evolve in response to viruses. 
+Second, I aim to understand how natural selection connect to non-infectious diseases by focusing on **natural selection** in Mendelian diseases and the evolution of non-coding genomic regions, which harbor the majority of variants associated with complex diseases. 
+
+Previously, I earned my PhD in the Department of Ecology and Evolutionary Biology at the University of Arizona (thesis), advised by David Enard ([Enard Lab](https://enardlab.com/)) and obtained my bachelor’s degree from Zhejiang University, China, in 2016. 
+
+Please feel free to contact me at chenludi6[at]gmail[dot]com for any professional correspondence.
+
 ------
 
