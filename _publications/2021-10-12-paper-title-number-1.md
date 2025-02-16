@@ -1,7 +1,7 @@
 ---
 title: "Decreased recent adaptation at human mendelian disease genes as a possible consequence of interference between advantageous and deleterious variants"
 collection: publications
-permalink: /publication/2021-10-12-paper-title-number-1.md
+permalink: /publication/2021-10-12-paper-title-number-1
 excerpt: '' 
 date: 2021-10-12
 venue: 'eLife'
