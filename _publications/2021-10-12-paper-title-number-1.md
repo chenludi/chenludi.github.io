@@ -8,6 +8,5 @@ venue: 'eLife'
 paperurl: 'http://chenludi.github.io/files/2021_Di_elife.pdf'
 slidesurl: 'http://chenludi.github.io/files/SMBE_20210528_ChenluDi_noaudio_0528.pdf'
 videourl: 'https://youtu.be/nK1KgorccI4'
-citation: ''
 ---
 
