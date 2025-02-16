@@ -52,15 +52,15 @@ layout: default
         {{ content }}
 
         {% if page.paperurl and page.slidesurl and page.videourl and page.posterurl %}
-          <font size= "2"> <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.videourl }}">Video Link</a> | <a href="{{ page.posterurl }}">Download Poster</a></p> </font>
+          <font size= "4"> <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.videourl }}">Video Link</a> | <a href="{{ page.posterurl }}">Download Poster</a></p> </font>
         {% elsif page.paperurl and page.slidesurl and page.videourl %}
-          <font size= "2"> <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.videourl }}">Video Link</a></p> </font>
+          <font size= "4"> <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.videourl }}">Video Link</a></p> </font>
         {% elsif page.paperurl and page.posterurl %}
-          <font size= "2"> <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.posterurl }}">Download Poster</a></p> </font>
+          <font size= "4"> <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.posterurl }}">Download Poster</a></p> </font>
         {% elsif page.paperurl and page.slidesurl %}
-          <font size= "2"> <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p> </font>
+          <font size= "4"> <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p> </font>
         {% elsif page.paperurl %}
-          <font size= "2"> <a href="{{ page.paperurl }}">Download Paper</a></p> </font>
+          <font size= "4"> <a href="{{ page.paperurl }}">Download Paper</a></p> </font>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
