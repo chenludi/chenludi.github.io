@@ -65,7 +65,7 @@ def extract_title(entries):
 
 # 3. Get venue
 # If the journal is in biorxiv, zotero won't read the journal name at 2025/02/16. Here you can set the default journal name.
-default_journal="biorxiv"
+
 def extract_venue(entries, default_journal="Unknown Journal"):
     venues = {}
     for entry_type, entry_key, entry_content in entries:
@@ -157,7 +157,7 @@ def write_tsv(entries, output_file):
     try:
         pub_dates = extract_pub_date(entries)
         titles = extract_title(entries)
-        venues = extract_venue(entries)
+        venues = extract_venue(entries, default_journal="biorxiv")
         excerpts = extract_authors(entries)
         paper_urls =replace_spaces_in_filenames(extract_paper_url(entries))
         slide_urls = extract_file_by_keyword(entries, "slides")
