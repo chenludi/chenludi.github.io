@@ -47,7 +47,7 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.paperurl and page.slides.url and page.videourl %}
+        {% if page.paperurl and page.slidesurl and page.videourl %}
           <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.videourl }}">Video Link</a></p>
         {% elsif page.paperurl and page.slidesurl %}
           <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
