@@ -1,4 +1,4 @@
----
+d---
 layout: default
 ---
 
@@ -48,9 +48,9 @@ layout: default
         {% elsif page.paperurl and page.slidesurl %}
           <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.paperurl and page.videourl %}
-          <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.videourl }}">Video Link</a></p>
+          <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.videourl }}">Recorded Talk</a></p>
         {% elsif page.paperurl and page.slidesurl and page.videourl %}
-          <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.videourl }}">Video Link</a></p>
+          <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.videourl }}">Recorded Talk</a></p>
         {% elsif page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
