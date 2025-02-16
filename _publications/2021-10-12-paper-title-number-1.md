@@ -1,5 +1,5 @@
 ---
-title: "Genes derived from ancient polyploidy have higher genetic diversity and are associated with domestication in \textit{{Brassica} rapa"
+title: "Genes derived from ancient polyploidy have higher genetic diversity and are associated with domestication in {{Brassica"
 collection: publications
 permalink: /publication/2021-10-12-paper-title-number-1
 excerpt: '' 
