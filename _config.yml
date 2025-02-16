@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Chenlu Di"
-  avatar           : "ChenluDi_face.jpeg"
+  avatar           : "files/ChenluDi_face.jpeg"
   bio              : "Postdoc researcher trapped by evolutionary questions."
   location         : "Los Angeles, the USA"
   employer         :
