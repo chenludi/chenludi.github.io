@@ -7,5 +7,5 @@ date: 2021-10-01
 venue: 'eLife'
 paperurl: 'http://chenludi.github.io/files/Di_et_al._-_2021_-_Decreased_recent_adaptation_at_human_mendelian_dis.pdf'
 slidesurl: 'http://chenludi.github.io/files/slides_2021_Di_eLife.pdf'
-videourl: 'http://chenludi.github.io/files/https://youtu.be/nK1KgorccI4'
+videourl: 'https://youtu.be/nK1KgorccI4'
 ---
