@@ -8,6 +8,7 @@ import os
 import re
 import csv
 
+
 # 0. Read the bib file from zotero: output setting: 
 
 def read_bib_file(bibfile):
@@ -46,19 +47,16 @@ def extract_pub_date(entries, default_date="01"):
 def extract_title(entries):
     titles = {}
     for entry_type, entry_key, entry_content in entries:
-        title_match = re.search(r'title\s*=\s*{(.*?)}', entry_content, re.DOTALL)
-        if title_match:
-            title = re.sub(r'[{}]', '', title_match.group(1))  # Remove curly braces
-            title = re.sub(r'\\[a-zA-Z]+', '', title)  # Remove LaTeX commands
-            titles[entry_key] = title
-    return titles
-
-def extract_title(entries):
-    titles = {}
-    for entry_type, entry_key, entry_content in entries:
         title_match = re.search(r'title\s*=\s*{((?:[^{}]|{[^{}]*})*)}', entry_content, re.DOTALL)
+        # if no title_match, try the second pattern.
+        if not title_match:
+            title_match = re.search(r'title\s*=\s*{(.*?)}', entry_content, re.DOTALL)
+        #print(title_match)
         if title_match:
-            title = title_match.group(1).replace('{', '').replace('}', '')  # Remove all curly braces
+            title = title_match.group(1)
+            while '{' in title and '}' in title:  # Iteratively remove nested curly braces
+                title = re.sub(r'\{([^{}]*)\}', r'\1', title)
+            title = re.sub(r'\\textit\{(.*?)\}', r'\1', title)  # Handle \textit formatting
             title = re.sub(r'\\[a-zA-Z]+', '', title)  # Remove LaTeX commands
             titles[entry_key] = title.strip()
     return titles
@@ -147,9 +145,15 @@ def get_video_url(entries):
     return video_urls
 
 
-# Write the TSV file
+# 9. Add realtive url to the existing urls.
+def add_path_to_urls(urls, base_path):
+    return {key: os.path.join(base_path, url) for key, url in urls.items() if url}
 
-def write_tsv(entries, output_file):
+
+# 10. Write the TSV file
+
+
+def write_tsv(entries, output_file, git_base_path):
     if not entries:
         print("Warning: No entries found. Check if the input file is correctly parsed.")
         return
@@ -159,24 +163,14 @@ def write_tsv(entries, output_file):
         titles = extract_title(entries)
         venues = extract_venue(entries, default_journal="biorxiv")
         excerpts = extract_authors(entries)
-        paper_urls =replace_spaces_in_filenames(extract_paper_url(entries))
-        slide_urls = extract_file_by_keyword(entries, "slides")
-        poster_urls = extract_file_by_keyword(entries, "poster")
+        paper_urls = add_path_to_urls(replace_spaces_in_filenames(extract_paper_url(entries)), git_base_path)
+        slide_urls = add_path_to_urls(extract_file_by_keyword(entries, "slides"), git_base_path)
+        poster_urls = add_path_to_urls(extract_file_by_keyword(entries, "poster"), git_base_path)
         video_urls = get_video_url(entries)
     except NameError as e:
         print(f"Error: Missing function definition - {e}")
         return
     
-    # print("Debug: Extracted data samples:")
-    # print("Pub Dates:", pub_dates)
-    # print("Titles:", titles)
-    # print("Venues:", venues)
-    # print("Excerpts:", excerpts)
-    # print("Paper URLs:", paper_urls)
-    # print("Slide URLs:", slide_urls)
-    # print("Poster URLs:", poster_urls)
-    # print("Video URLs:", video_urls)
-        
     with open(output_file, 'w', newline='', encoding='utf-8') as tsvfile:
         fieldnames = ["pub_date", "title", "venue", "excerpt", "paper_url", "slideurl", "posterurl", "videourl"]
         writer = csv.DictWriter(tsvfile, fieldnames=fieldnames, delimiter='\t')
@@ -184,23 +178,23 @@ def write_tsv(entries, output_file):
         
         for entry_type, entry_key, entry_content in entries:
             writer.writerow({
-                "pub_date": pub_dates.get(entry_key, ""),
-                "title": titles.get(entry_key, ""),
-                "venue": venues.get(entry_key, ""),
-                "excerpt": excerpts.get(entry_key, ""),
-                "paper_url": paper_urls.get(entry_key, ""),
-                "slideurl": slide_urls.get(entry_key, ""),
-                "posterurl": poster_urls.get(entry_key, ""),
-                "videourl": video_urls.get(entry_key, "")
+                "pub_date": pub_dates.get(entry_key, None),
+                "title": titles.get(entry_key, None),
+                "venue": venues.get(entry_key, None),
+                "excerpt": excerpts.get(entry_key, None),
+                "paper_url": paper_urls.get(entry_key, None),
+                "slideurl": slide_urls.get(entry_key, None),
+                "posterurl": poster_urls.get(entry_key, None),
+                "videourl": video_urls.get(entry_key, None)
             })
     
     print(f"TSV file successfully written to {output_file}")
 
-# 
 
-# write markdonw file as below from TSV file: 
-# 1. if the key value is empty, don't write it as a row in the markdown file
-# 2. name it based on pubdate and first three words of the title, replace space with "_"
+
+# 11. write markdonw file as below from TSV file: 
+# a. if the key value is empty, don't write it as a row in the markdown file
+# b. name it based on pubdate and first three words of the title, replace space with "_"
 # ---
 # title: "Genes derived from ancient polyploidy have higher genetic diversity and are associated with domestication in Brassica rapa"
 # collection: publications
@@ -261,11 +255,15 @@ os.chdir(dir_root)
 
 bibfile="/Users/test/c6googledrive/Chenlu Di/mywebsite/biball/biball.bib"
 output_file="/Users/test/c6googledrive/Chenlu Di/mywebsite/biball/biball.tsv"
+git_base_bath="http://chenludi.github.io/files"
+
 content = read_bib_file(bibfile)
 entries = parse_bib_entries(content)
-write_tsv(entries, output_file)
+write_tsv(entries, output_file,git_base_bath)
 
-write_markdown_from_tsv(output_file, dir_root)
+# custermize the output path to your own.
+output_dir="/Users/test/c6googledrive/Chenlu Di/mywebsite/chenludi.github.io/_publications"
+write_markdown_from_tsv(output_file, output_dir)
 
 # Optional step:
 # move files in all the subdirectories to the root directory/file and rename it by replcacing space with "_"
@@ -292,7 +290,7 @@ def copy_files_to_root(directory):
     print(f"All files copied to root directory with renamed files: {directory}")
 
 
-file_direcotry=dir_root+'/files'
+file_direcotry="/Users/test/c6googledrive/Chenlu Di/mywebsite/chenludi.github.io/files"
 
 copy_files_to_root(file_direcotry)
 
