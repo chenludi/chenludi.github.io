@@ -1,0 +1,11 @@
+---
+title: 'Curate jobs from Ecoevo job list'
+date: 2025-08-22
+permalink: /posts/2025-08-22-blog-post
+tags:
+  - tools
+---
+
+**2025/08/22**
+Script for curating jobs from the Ecoevo job list google sheet file.
+https://github.com/chenludi/ecoevojobs_curatejobs.git
