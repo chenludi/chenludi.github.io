@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am looking for a postdoc job (starting from Jan/Feb 2026) now! I will also be on the job market for a tenure-track assistant professor position this fall!
+I am looking for a postdoc job (starting from Jan/Feb 2026) now!
 
 I am currently a postdoctoral researcher at the Department of Ecology and Evolutionary Biology, University of California, Los Angeles, where I am working with Kirk Lohmueller ([Lohmueller Lab](https://lohmueller.eeb.ucla.edu/people/)). My research integrates population genetics, empirical human genomics, and biomedical applications.
 
