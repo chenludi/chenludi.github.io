@@ -1,9 +1,10 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Test"
 permalink: /test/
 author_profile: true
 ---
+
 
 <head>
     <meta charset="UTF-8">
