@@ -5,37 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% include base_path %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lectures and Workshops</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h2 {
-            margin-top: 20px;
-        }
-        .entry {
-            margin-left: 20px;
-        }
-        .year {
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <h2>Lectures</h2>
-    <div class="entry"><span class="year">Fall, 2021</span> – Graduate teaching assistant in Intro Biology online course</div>
-    <div class="entry"><span class="year">Spring, 2019-2021</span> – Graduate teaching assistant in Population genetics</div>
-    <div class="entry"><span class="year">Fall, 2016-2020</span> – Graduate teaching assistant in Genetics</div>
-    <div class="entry"><span class="year">Spring, 2018</span> – Graduate teaching assistant in Animal Sexual Behavior</div>
-    <div class="entry"><span class="year">Spring, 2017</span> – Graduate teaching assistant in Evolution</div>
+Test of normal md in publications
+======
+* B.S. in Applied Biology, Zhejiang University, HangZhou, China, 2016
 
-    <h2>Workshop</h2>
-    <div class="entry"><span class="year">2021</span> – ResBaz Arizona: assistant at a python workshop</div>
-</body>
 
 
