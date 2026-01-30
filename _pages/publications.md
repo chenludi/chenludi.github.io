@@ -15,7 +15,7 @@ author_profile: true
 4.   Xiaobai Li, Weirui Li , **Chenlu Di**, Ming Xie, Liang Jin, Cheng Huang and Dianxing Wu. 2016. Development of genic simple sequence repeat panels for population classification of chinese Cymbidium species, Journal of the American Society for Horticultural Science, 141(2):125–130. 
 
 ## Paper in revision
-5.   **Chenlu Di**, Jesus Murga Moreno and David Enard. 2022. Stability evolution as a major mechanism of human protein adaptation in response to viruses. bioRxiv 2022.12.01.518739. (in revision at Molecular Biology and Evolution)
+5.   **Chenlu Di**, Jesus Murga Moreno and David Enard. 2022. Stability evolution as a major mechanism of human protein adaptation in response to viruses. bioRxiv 2022.12.01.518739.
 
 ## Preprint
 6. **Chenlu Di**, Swetha Ramesh, Jason Ernst, Kirk E. Lohmueller. 2025. The landscape of fitness effects of putatively functional noncoding mutations in humans. bioRxiv 2025.05.14.654124
