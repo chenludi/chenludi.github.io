@@ -11,9 +11,9 @@ I am currently a postdoctoral researcher with [Evan Eichler](https://eichler.gs.
 
 I investigate how natural selection shapes human health and disease. 
 
-# 1) How does natural selection act on diverse noncoding genomic regions and complex mutations, and how do these processes influence chronic disease risk? 
+**1)** How does natural selection act on diverse noncoding genomic regions and complex mutations, and how do these processes influence chronic disease risk? 
 
-# 2) How did humans adapt to viruses? I combine evolutionary theory, model-based statistical and machine-learning computational approaches, and multi-omic data, including genomes, protein structures, transcription, and epigenomics, to answer these two questions.
+**2)** How did humans adapt to viruses? I combine evolutionary theory, model-based statistical and machine-learning computational approaches, and multi-omic data, including genomes, protein structures, transcription, and epigenomics, to answer these two questions.
 
 In my previous work, 
 
