@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a postdoctoral researcher with ([Evan Eichler][https://eichler.gs.washington.edu/]).
+I am currently a postdoctoral researcher with [Evan Eichler](https://eichler.gs.washington.edu/).
 
 I investigate how natural selection shapes human health and disease. 
 
