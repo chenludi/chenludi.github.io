@@ -9,7 +9,7 @@ redirect_from:
 
 I am currently a postdoctoral researcher with [Evan Eichler](https://eichler.gs.washington.edu/).
 
-I investigate how natural selection shapes human health and disease. 
+I investigate how **natural selection** shapes **human health** and **disease**. 
 
 **1)** How does natural selection act on diverse noncoding genomic regions and complex mutations, and how do these processes influence chronic disease risk? 
 
