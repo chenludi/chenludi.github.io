@@ -19,7 +19,7 @@ author_profile: true
 
 ## Preprint
 6. **Chenlu Di**, Swetha Ramesh, Jason Ernst, Kirk E. Lohmueller. 2025. The landscape of fitness effects of putatively functional noncoding mutations in humans. bioRxiv 2025.05.14.654124
-7. **Chenlu Di**, Carlos Eduardo G. Amorim*, Meixi Lin, Clare Marsden, Christina A. Del Carpio, Jonathan C. Mah, Jacqueline A. Robinson, Bernard Y. Kim, Jazlyn A. Mooney, Omar E. Cornejo, Kirk E. Lohmueller. 2024. Evolutionary consequences of domestication on the selective effects of new amino acid changing mutations in canids. bioRxiv 2024.11.13.623529. [[PDF]](https://github.com/chenludi/chenludi.github.io/blob/8de0e3d63256ad1ee591fd38cd8914f134386db9/files/Amorim_et_al._-_2024_-_Evolutionary_consequences_of_domestication_on_the_.pdf)
+7. **Chenlu Di***, Carlos Eduardo G. Amorim*, Meixi Lin, Clare Marsden, Christina A. Del Carpio, Jonathan C. Mah, Jacqueline A. Robinson, Bernard Y. Kim, Jazlyn A. Mooney, Omar E. Cornejo, Kirk E. Lohmueller. 2024. Evolutionary consequences of domestication on the selective effects of new amino acid changing mutations in canids. bioRxiv 2024.11.13.623529. [[PDF]](https://github.com/chenludi/chenludi.github.io/blob/8de0e3d63256ad1ee591fd38cd8914f134386db9/files/Amorim_et_al._-_2024_-_Evolutionary_consequences_of_domestication_on_the_.pdf)
 
   *\* Co–first authors.*
 
