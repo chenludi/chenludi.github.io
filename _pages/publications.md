@@ -20,8 +20,8 @@ author_profile: true
 ## Preprint
 6. **Chenlu Di**, Swetha Ramesh, Jason Ernst, Kirk E. Lohmueller. 2025. The landscape of fitness effects of putatively functional noncoding mutations in humans. bioRxiv 2025.05.14.654124
 7. **Chenlu Di**\*, Carlos Eduardo G. Amorim*, Meixi Lin, Clare Marsden, Christina A. Del Carpio, Jonathan C. Mah, Jacqueline A. Robinson, Bernard Y. Kim, Jazlyn A. Mooney, Omar E. Cornejo, Kirk E. Lohmueller. 2024. Evolutionary consequences of domestication on the selective effects of new amino acid changing mutations in canids. [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2024.11.13.623529v1) 2024.11.13.623529.
-8. Swetha Ramesh, Chenlu Di, Kirk E. Lohmueller. 2026. Pervasive cryptic selection in the human noncoding genome. [[bioRxiv]](https://www.biorxiv.org/content/10.64898/2026.06.09.731256v1) 2026.06.09.731256
-9. Gustavo V. Barroso, Nicholas W. Collier, Chenlu Di, Kirk E. Lohmueller, Aaron P. Ragsdale. 2026. Causal inference clarifies the roles of background selection and mutation rate variation in shaping human genetic diversity. [[bioRxiv]](https://www.biorxiv.org/content/10.64898/2026.06.02.727906v1) 2026.06.02.727906
+8. Swetha Ramesh, **Chenlu Di**, Kirk E. Lohmueller. 2026. Pervasive cryptic selection in the human noncoding genome. [[bioRxiv]](https://www.biorxiv.org/content/10.64898/2026.06.09.731256v1) 2026.06.09.731256
+9. Gustavo V. Barroso, Nicholas W. Collier, **Chenlu Di**, Kirk E. Lohmueller, Aaron P. Ragsdale. 2026. Causal inference clarifies the roles of background selection and mutation rate variation in shaping human genetic diversity. [[bioRxiv]](https://www.biorxiv.org/content/10.64898/2026.06.02.727906v1) 2026.06.02.727906
 
   *\* Co–first authors.*
 
